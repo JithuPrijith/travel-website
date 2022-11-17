@@ -1,0 +1,114 @@
+body{
+    margin: 0%;
+    padding: 0%;
+
+}
+/* *{
+    outline: 1px solid red;
+} */
+.navbar-barnd-custom{
+ width: 35px;
+ height: 35px;
+ background-color: #f0c02a;
+}
+.nav-data{
+    font-weight: bold;
+}
+.navbar-nav >li{
+    margin: 0 .5rem;
+}
+.welcome{
+    font-size: 10rem;
+    font-weight: bolder;
+    color: #cfcecc;
+}
+.bg-section-div{
+    position: relative;
+    z-index: 1;
+}
+.bg-buttons{
+    border-radius: 1.5rem;
+    margin: .5em;
+    background-color: #f0c02a;
+    z-index: 2;
+}
+.bg-image{
+    position: absolute;
+    top: 0;
+    margin-left: 15rem;
+    z-index: 0;
+}
+.prijith{
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+.profile-image{
+    max-height: 40rem;
+}
+.bg-paragraph{
+    margin-left: 60%;
+    margin-top: 2rem;
+    max-width: 20rem;
+}
+.nav-section,.bg-section,.second-nav{
+    background-color: #a2a2a2;
+    color: white;
+}
+.bg-video{
+    position: absolute;
+    top: 15em;
+    margin-left: 60%;
+    max-width: 23em;
+    max-height: 15rem;
+    border-radius: 4rem;
+}
+.bg-video img{
+    border-radius: 4rem;
+    background-size: contain;
+}
+.diagonal-image{
+   margin-top: -7rem;
+    z-index: 1;
+}
+.map-image-div{
+    height: 6rem;
+}
+.map-image-div > p{
+    font-weight: bold;
+}
+.gorilla-section{
+    background: url('/travelWebsite-images/gorilla-uganda-bg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-most-popular-section{
+    background: url('/travelWebsite-images/most-bg.jpg');
+    min-height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.most-popular-section{
+    position: relative;
+}
+.most-popular-cards{
+    position: absolute;
+    top: 5rem;
+}
+.world{
+    color: #f0c02a;
+}
+.discover-data > h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+}
+.map-image-div:hover{
+    background-color: #f2f2f2;
+}
+.card-img-top:hover{
+transform: scale(1.1);
+}
+/* .things-image{
+    background: url('travelWebsite-images/10-things-bg.webp');
+    height: 50vh;
+} */
